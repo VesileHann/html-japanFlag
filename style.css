@@ -1,0 +1,28 @@
+/*background for all flag*/
+div{
+    width:900px;
+    height:600px;
+    background-color:#fff;
+    position:absolute;
+    border:solid black;
+}
+.flag> div/*for red circle*/
+{
+    background-color:#bc002d;
+    width:360px;
+    height:360px;
+    border-radius:50%;
+    margin:0;
+    position:relative;
+    top:110px;
+    left:260px;
+    border:0;
+}
+.flag>h1/*Text*/
+{
+    position:relative;
+    top:250px;
+    left:400px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
